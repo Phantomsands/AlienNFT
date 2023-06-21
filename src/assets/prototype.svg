@@ -1,0 +1,52 @@
+<svg width="600px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<!---BackGround-->
+	<g stroke="white" stroke-width="6" fill="orange">
+		<polyline points="0,0 0,600 600,600 600,0"/>
+	</g>
+	<!-- Neck Area -->
+	<g stroke="black" stroke-width="3" fill="blue">
+		<polyline points="200,400 200,595 450,595 450,490"/>
+	</g>
+	<!-- Ear Area -->
+	<g stroke="black" stroke-width="3" fill="black">
+                <polyline points="170,300 140,280 120,280 110,290 110,350 110,380 170,440 180,430"/> 
+		<polyline points="510,340 530,300 530,350 500,430 490,430"/>
+        </g>
+	<!-- Face Area -->
+	<g stroke="black" stroke-width="3" fill="green">
+		<polygon points="150,170 180,470 370,550 480,470 510,360 520,180"/>
+	</g>
+	<!--BROWS-->
+	<g stroke="black" stroke-width="3" fill="black">
+		<polygon points="390,260 460,215 490,250 460,230"/>
+		<polygon points="340,260 240,220 190,260 230,230"/>
+	</g>
+
+	<!--EYES TYPE 1-->
+	<g stroke="black" stroke-width="3" fill="black">
+		<polygon points="300,280 300,290 240,300 220,290 210,270 220,260 280,260"/>
+		<polygon points="400,280 400,290 460,300 480,290 490,270 480,260 420,260"/>
+	</g>
+	<g stroke="black" stroke-width="3" fill="white">
+		<circle cx="260" cy="279" r="16"/>
+		<circle cx="440" cy="278" r="17"/>
+	</g> 
+	<g stroke="black" stroke-width="3" fill="purple">
+		<circle cx="260" cy="279" r="6"/>
+		<circle cx="440" cy="279" r="8"/>
+	</g> 
+	<!-- Nose Area -->
+	<g stroke="black" stroke-width="3" fill="none">
+		<polyline points="355,290 380,401 360,400"/>
+	</g>
+	<!-- Mouth Area -->
+	<!-- Mouth Type 1-->
+	<g stroke="black" stroke-width="3" fill="none">
+		<polyline points="400,450 330,450"/>
+		<polyline points="370,465 345,465"/>
+	</g>
+	<!-- Hat Area -->
+	<g stroke="black" stroke-width="3" fill="green">
+		<ellipse cx="334" cy="175" ry="30" rx="187"/>
+	</g>
+</svg>
